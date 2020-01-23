@@ -54,3 +54,7 @@ Object {
   },
   "rootTag": 891,
 }
+
+
+console.log("looping through this.refs")
+{ for (const prop in this.refs) { console.log(`${prop}: ${this.refs[a]}`) } }
