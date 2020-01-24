@@ -58,7 +58,7 @@ export default class App extends React.Component {
   componentDidMount() {
     //af( 2, () => { this.setState({ buttonName: "Changed after 2 seconds" }) } )
     this.changeButton( 2 )
-    this.changeButton( 4 )
+    //this.changeButton( 4 )
     // af(4,() => {
     //   this.setState({ buttonName: "Changed after 4 seconds" })
     // })
